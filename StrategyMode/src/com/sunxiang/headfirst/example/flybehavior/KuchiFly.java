@@ -1,4 +1,8 @@
 package com.sunxiang.headfirst.example.flybehavior;
 
-public class kuchiFly {
+public class KuchiFly implements FlyBehavior {
+    @Override
+    public void fly() {
+        System.out.println("This duck kuchi kuchi fly");
+    }
 }

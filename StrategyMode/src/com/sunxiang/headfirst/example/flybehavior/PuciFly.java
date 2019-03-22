@@ -1,12 +1,9 @@
 package com.sunxiang.headfirst.example.flybehavior;
 
-public class PuciFly {
-    private static PuciFly ourInstance = new PuciFly();
+public class PuciFly implements FlyBehavior {
 
-    public static PuciFly getInstance() {
-        return ourInstance;
-    }
-
-    private PuciFly() {
+    @Override
+    public void fly() {
+        System.out.println("This duck puci puci fly");
     }
 }
