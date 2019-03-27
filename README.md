@@ -14,3 +14,14 @@
 使用Java内置的观察者。
 
 **在通知观察者之前需要调用setChanged()，否则没有通知观察者**
+
+## 命令模式
+
+### 命令模式类图
+![命令模式类图](https://github.com/lazysunshinesmile/DesignPatterns/blob/master/CommandModel/src/image/FireShot%20Pro%20Screen%20Capture%20%23002%20-%20'Image_webp%20(531%C3%97382)'%20-%20file.png)
+
+### 原理
+将请求、命令、动作等封装成对象，这样可以让项目使用这些对象来参数化其他对象。使得命令的请求者和执行者解耦。
+
+### 作用
+命令模式的作用是把发射命令的对象和接收命令的对象分隔开来。
