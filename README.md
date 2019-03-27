@@ -45,7 +45,7 @@
 
 ​            具体产品角色是创建目标，所有创建的对象都充当这个角色的某个具体类的实例。
 
-![img](file:///C:/Users/sun/AppData/Local/Temp/enhtmlclip/Image.jpg)
+![简单工厂类图](https://github.com/lazysunshinesmile/DesignPatterns/blob/master/FactoryModel/src/image/simple_factory.jpg)
 
 
 
@@ -88,7 +88,7 @@
 - Factory：抽象工厂
 - ConcreteFactory：具体工厂
 
-![img](file:///C:/Users/sun/AppData/Local/Temp/enhtmlclip/Image(1).jpg)
+![工厂模式类图](https://github.com/lazysunshinesmile/DesignPatterns/blob/master/FactoryModel/src/image/factory.jpg)
 
 **2.1. 工厂方法模式的优点**
 
@@ -120,7 +120,7 @@
 - AbstractProduct：抽象产品
 - Product：具体产品
 
-![img](file:///C:/Users/sun/AppData/Local/Temp/enhtmlclip/Image(2).jpg)
+![img](https://github.com/lazysunshinesmile/DesignPatterns/blob/master/FactoryModel/src/image/simple_factory.jpg)
 
 **3.8. 优点**
 
