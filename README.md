@@ -81,7 +81,7 @@
 
 ```定义了一个创建对象的抽象方法，由子类决定要实例化的类。工厂方法模式将对象的实例化推迟到子类。```
 
-**在pizza的订单的例子中，OrderPizza这个类里面，createPizza()方法被抽象出来，具体的定义在OrderPizza的子类LDOrderPizza等类中实现。而抽象工厂模式则是有一个接口（AbsFactory）写了CreatePizza()，然后LDFactory等工厂实现该接口和该方法。在OrderPizza中有一个实例对象是AbsFactory,初始化的时候会传入具体的工厂子类。然后在OrderPizza中调用了工厂的创建pizza。  **
+**在pizza的订单的例子中，OrderPizza这个类里面，createPizza()方法被抽象出来，具体的定义在OrderPizza的子类LDOrderPizza等类中实现。而抽象工厂模式则是有一个接口（AbsFactory）写了CreatePizza()，然后LDFactory等工厂实现该接口和该方法。在OrderPizza中有一个实例对象是AbsFactory,初始化的时候会传入具体的工厂子类。然后在OrderPizza中调用了工厂的创建pizza。**
 
 - Product：抽象产品
 - ConcreteProduct：具体产品
